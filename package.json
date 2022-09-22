@@ -1,0 +1,30 @@
+{
+  "name": "discord-stats-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --fix --cache --ext .js,.jsx,.ts,.tsx",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "build": "tsc --project tsconfig.json",
+    "start": "yarn run start:bot",
+    "start:bot": "yarn run build && node --enable-source-maps dist/index.js"
+  },
+  "keywords": [],
+  "author": "derech1e",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^1.1.0",
+    "@types/node": "^18.7.14",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.3.0",
+    "dotenv": "^16.0.2",
+    "minecraft-server-ping": "^0.0.8",
+    "mongoose": "^6.5.4"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
