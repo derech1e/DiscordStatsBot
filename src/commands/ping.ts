@@ -1,4 +1,4 @@
-import { SlashCommandBuilder, ChannelType, TextChannel, EmbedBuilder } from "discord.js"
+import { SlashCommandBuilder, ChannelType, EmbedBuilder } from "discord.js"
 import { getThemeColor } from "../functions";
 import { SlashCommand } from "../types";
 
@@ -15,6 +15,7 @@ const command : SlashCommand = {
                     .setColor(getThemeColor("text"))
             ]
         })
+        setTimeout(() => interaction.deleteReply(), 5000)
     },
     cooldown: 10
 }

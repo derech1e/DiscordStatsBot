@@ -23,6 +23,7 @@ const command: SlashCommand = {
                     .setColor(getThemeColor("text"))
             ]
         })
+        setTimeout(() => interaction.deleteReply(), 5000)
     },
     cooldown: 10
 }
