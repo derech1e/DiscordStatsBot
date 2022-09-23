@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "prepare": "yarn run gcp-build",
     "lint": "eslint . --cache --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --fix --cache --ext .js,.jsx,.ts,.tsx",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
     "build": "tsc --project tsconfig.json",
-    "start": "yarn run start:bot",
-    "start:bot": "yarn run build && node --enable-source-maps dist/index.js"
+    "gcp-build": "tsc -p .",
+    "start": "node --enable-source-maps dist/index.js"
   },
   "keywords": [],
   "author": "derech1e",
@@ -25,6 +26,7 @@
     "mongoose": "^6.5.4"
   },
   "devDependencies": {
-    "typescript": "^4.8.2"
+    "typescript": "^4.8.2",
+    "yarn": "^1.22.19"
   }
 }
