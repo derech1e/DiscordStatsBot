@@ -14,10 +14,9 @@ const command: SlashCommand = {
         await interaction.reply({
             embeds: [
                 new EmbedBuilder()
-                    .setTitle("Minecraft Server")
+                    .setTitle(`${modt}`)
                     .setThumbnail("https://media.discordapp.net/stickers/1014163627013582898.webp?size=64")
-                    .setDescription(`${modt}\n
-                    Spieler: ${data.players.online}/${data.players.max} (${data.players.sample?.map(item => item.name).join(", ")})
+                    .setDescription(`Spieler: ${data.players.online}/${data.players.max} ${data.players.sample && `(${data.players.sample?.map(item => item.name).join(", ")})`}
                     📡 Ping: ${data.ping}`)
                     .setFooter({iconURL: 'https://media.discordapp.net/stickers/1014163627013582898.webp?size=64', text: `${data.version.name} (${data.version.protocol}) - powered by Nuerk-Solutions`})
                     .setColor(getThemeColor("text"))
