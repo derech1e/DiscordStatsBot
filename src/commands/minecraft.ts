@@ -22,7 +22,7 @@ const command: SlashCommand = {
                     .setDescription(`Spieler: ${data.players.online}/${data.players.max} ${data.players.sample == undefined ? '' : `(${data.players.sample?.map(item => item.name).join(", ")})`}
                     📡 Ping: ${data.ping}`)
                     .setFooter({
-                        iconURL: 'https://media.discordapp.net/stickers/1014163627013582898.webp?size=64',
+                        iconURL: "attachment://icon.png",
                         text: `${data.version.name} (${data.version.protocol}) - powered by Nuerk-Solutions`
                     })
                     .setColor(getThemeColor("text"))
