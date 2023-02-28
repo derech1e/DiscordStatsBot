@@ -23,7 +23,7 @@
     "discord.js": "^14.3.0",
     "dotenv": "^16.0.2",
     "minecraft-server-ping": "^0.0.8",
-    "mongoose": "^6.5.4"
+    "mongoose": "^7.0.0"
   },
   "devDependencies": {
     "typescript": "^4.8.2",
