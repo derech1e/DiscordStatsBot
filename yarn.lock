@@ -187,10 +187,10 @@ memory-pager@^1.0.2:
   resolved "https://registry.yarnpkg.com/memory-pager/-/memory-pager-1.5.0.tgz#d8751655d22d384682741c972f2c3d6dfa3e66b5"
   integrity sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
 
-minecraft-server-ping@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/minecraft-server-ping/-/minecraft-server-ping-0.0.8.tgz#713a9af3b683f5b2825009344417a1ec0004798c"
-  integrity sha512-wbJTE/fefcPkwvND3JPhbfr2Y2/lJ6OKrbACwwPY1TX6flp8Y1USxzFseM6jwcI6wR3uuBtvCo6s6IdpmFnh9A==
+minecraft-server-ping@^0.0.11:
+  version "0.0.11"
+  resolved "https://registry.yarnpkg.com/minecraft-server-ping/-/minecraft-server-ping-0.0.11.tgz#f625e5d788c53f139ce99ad41c66a8d1f570e685"
+  integrity sha512-EU2IZx/DGkAcUAZv2Do/iaWTnVAAxQ4EDPYe1uQ/kE1i0DZd1uII0VGVLkpOJ5dLtidI11dpSU43E6HrSwV7Yg==
   dependencies:
     varint "^6.0.0"
 
