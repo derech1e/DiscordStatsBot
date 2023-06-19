@@ -22,7 +22,7 @@
     "chalk": "^5.1.2",
     "discord.js": "^14.3.0",
     "dotenv": "^16.0.2",
-    "minecraft-server-ping": "^0.0.11",
+    "minecraft-server-ping": "^0.0.12",
     "mongoose": "^7.0.1"
   },
   "devDependencies": {

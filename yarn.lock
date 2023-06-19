@@ -217,11 +217,19 @@ memory-pager@^1.0.2:
   resolved "https://registry.yarnpkg.com/memory-pager/-/memory-pager-1.5.0.tgz#d8751655d22d384682741c972f2c3d6dfa3e66b5"
   integrity sha512-ZS4Bp4r/Zoeq6+NLJpP+0Zzm0pR8whtGPf1XExKLJBAczGMnSi3It14OiNCStjQjM6NU1okjQGSxgEZN8eBYKg==
 
-minecraft-server-ping@^0.0.11:
-  version "0.0.11"
-  resolved "https://registry.yarnpkg.com/minecraft-server-ping/-/minecraft-server-ping-0.0.11.tgz#f625e5d788c53f139ce99ad41c66a8d1f570e685"
-  integrity sha512-EU2IZx/DGkAcUAZv2Do/iaWTnVAAxQ4EDPYe1uQ/kE1i0DZd1uII0VGVLkpOJ5dLtidI11dpSU43E6HrSwV7Yg==
+mharj-result@^0.2.1:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/mharj-result/-/mharj-result-0.2.2.tgz#71c7f9931b87e1877dfc3cbc21f85832acba2dc4"
+  integrity sha512-aS+N14ygqIolok1nhoh4oNgaMA6xDuqGIuNhs+W4ux7ugp2rJ0jBvKnoe8Sy4ro8LiURBralKiyhJ61fYgLIag==
   dependencies:
+    tslib "^2.5.3"
+
+minecraft-server-ping@^0.0.12:
+  version "0.0.12"
+  resolved "https://registry.yarnpkg.com/minecraft-server-ping/-/minecraft-server-ping-0.0.12.tgz#0e5de65e0338b1d0754587575ebd78e91899e1d5"
+  integrity sha512-3360kTktCHmOVNoSumBW3U2E76ZDiWMn/YkSljPAsGot5aLQC1E4VYJ27AW/acz21KE8pVdKIS3UviPlasIcoQ==
+  dependencies:
+    mharj-result "^0.2.1"
     varint "^6.0.0"
 
 mongodb-connection-string-url@^2.6.0:
@@ -381,7 +389,7 @@ ts-mixer@^6.0.3:
   resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.3.tgz#69bd50f406ff39daa369885b16c77a6194c7cae6"
   integrity sha512-k43M7uCG1AkTyxgnmI5MPwKoUvS/bRvLvUb7+Pgpdlmok8AoqmUaZxUUw8zKM5B1lqZrt41GjYgnvAi0fppqgQ==
 
-tslib@^2.5.0:
+tslib@^2.5.0, tslib@^2.5.3:
   version "2.5.3"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
   integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
